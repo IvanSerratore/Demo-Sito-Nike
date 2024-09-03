@@ -1,0 +1,794 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: social;
+    src: url(font/social.woff2),
+        url(font/social.woff),
+        url(font/social.ttf);
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.border1 {
+    border: 1px solid rgb(100, 95, 95);
+    ;
+    ;
+}
+
+
+body {
+    max-width: 1920px;
+    margin: 0 0 0 0;
+    height: 1080px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+body button {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+}
+
+body button img {
+    width: 25%;
+    height: 25%;
+}
+
+
+/* -------------------------Prima fascia------------------------------- */
+.fascia1 {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+
+#fascia1 {
+    background-color: rgb(236, 232, 232);
+    height: 3.7037037%;
+    width: auto;
+}
+
+#jordan {
+    float: left;
+    display: block;
+    background-color: rgb(236, 232, 232);
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+#converse {
+    float: left;
+    display: block;
+    background-color: rgb(236, 232, 232);
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#immagine1 {
+    float: left;
+}
+
+
+#testi1 {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+#testi1 a {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    float: left;
+}
+
+#testi1 p {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    float: left;
+}
+
+/* -------------------------seconda fascia------------------------------- */
+.fascia2 {
+    position: sticky;
+    top: 40px;
+    left: 0;
+    z-index: 2;
+}
+
+#fascia2 {
+    background-color: #fff;
+    height: 5.55555556%;
+    width: auto;
+}
+
+#immagine2 {
+    float: left;
+}
+
+#logo_nike {
+    width: 70px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#menu {
+    float: left;
+    padding: 20px 0 10px;
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+#ricerca {
+    float: left;
+    margin-left: 10%;
+    padding: 20px 0;
+    margin-right: 5%;
+}
+
+#loghi div {
+    float: left;
+    padding: 10px 0 3px;
+}
+
+.icon {
+    padding-left: 25px;
+    background: url("../immagini/loghi/icons8-ricerca-50.png") no-repeat left;
+    background-size: 15px;
+    border-radius: 20px;
+}
+
+#loghi img {
+    height: 30px;
+}
+
+/* -----------------------qui inizia il menu --------------------------*/
+
+nav ul li {
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li ul {
+    position: absolute;
+    display: none;
+}
+
+nav ul li:hover a:first-child {
+    border-bottom: 2px solid black;
+}
+
+nav ul li:hover ul a:first-child {
+    border: none;
+}
+
+
+nav ul li:hover #ul1 {
+    left: -710px;
+    display: block;
+    z-index: 2;
+    background-color: #fff;
+    padding-top: 50px;
+    width: 1920px;
+    height: 400px;
+    padding-left: 500px;
+}
+
+nav ul li:hover #ul2 {
+    left: -900px;
+    display: block;
+    z-index: 2;
+    background-color: #fff;
+    padding-top: 50px;
+    width: 1920px;
+    height: 400px;
+    padding-left: 500px;
+}
+
+nav ul li:hover #ul3 {
+    left: -970px;
+    display: block;
+    z-index: 2;
+    background-color: #fff;
+    padding-top: 50px;
+    width: 1920px;
+    height: 400px;
+    padding-left: 500px;
+}
+
+nav ul li:hover #ul4 {
+    left: -1050px;
+    display: block;
+    z-index: 2;
+    background-color: #fff;
+    padding-top: 50px;
+    width: 1920px;
+    height: 400px;
+    padding-left: 500px;
+}
+
+nav ul li:hover #ul5 {
+    left: -1130px;
+    display: block;
+    z-index: 2;
+    background-color: #fff;
+    padding-top: 50px;
+    width: 1920px;
+    height: 400px;
+    padding-left: 400px;
+}
+
+nav ul li ul li a {
+    margin-right: 50px;
+    color: rgb(100, 95, 95);
+    font-size: 17px;
+}
+
+nav ul li ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li ul li a:first-child {
+    margin-right: 50px;
+    color: black;
+    font-size: 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* -------------------------terza fascia------------------------------- */
+
+#fascia3 {
+    background-color: rgb(236, 232, 232);
+    height: 5.55555556%;
+    width: auto;
+}
+
+#fascia3 p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#p2 {
+    text-align: center;
+    font-size: 12px;
+    text-decoration: underline;
+    color: black;
+}
+
+#p2 a {
+    color: black;
+}
+
+/* -------------------------fine testata------------------------------- */
+
+
+/* -------------------------Inizio fascia 10------------------------------- */
+
+#fascia10 {
+    clear: both;
+    background-color: black;
+    height: 30.037037%;
+}
+
+
+#fascia10 a {
+    text-decoration: none;
+    color: rgb(100, 95, 95);
+}
+
+#fascia10 a:hover {
+    color: white;
+}
+
+
+#fascia10 a:first-child {
+    color: #fff;
+}
+
+.footer1 {
+    float: left;
+    margin-top: 50px;
+    width: 10%;
+    font-size: 13px;
+    margin-left: 100px;
+}
+
+#fondo5 {
+    float: right;
+}
+
+#fondo1 a {
+    color: #fff;
+}
+
+#fondo1 a:hover {
+    text-decoration: underline;
+}
+
+#fascia10 ul {
+    font-family: 'social';
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 5%;
+
+}
+
+#fascia10 ul li {
+    display: inline-block;
+    margin-right: 16px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: rgb(100, 95, 95);
+    text-align: center;
+    line-height: 32px;
+    margin-top: 50px;
+}
+
+#fascia10 ul li a {
+    color: black;
+}
+
+/* -------------------------Fine fascia 10--------------------------------- */
+
+/* -------------------------inizio fascia 11--------------------------------- */
+
+#fascia11 {
+    float: right;
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}
+
+#fascia11 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#fascia11a {
+    float: right;
+    padding-right: 200px;
+}
+
+#fascia11a a {
+    margin-right: 20px;
+}
+
+#fascia11sx1 {
+    font-family: social;
+    float: left;
+    padding-left: 10%;
+    margin-top: 50px;
+}
+
+#fascia11sx2 {
+    float: left;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+#fascia11sx3 {
+    float: left;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+#fascia11dx1 {
+    float: right;
+    padding-right: 10%;
+    margin-top: 50px;
+}
+
+#fascia11dx1 a {
+    margin-right: 20px;
+}
+
+#fascia11b {
+    clear: both;
+}
+
+/* -------------------------INIZIO FIELD1a---------------------------------- */
+
+#field1a {
+    float: left;
+    margin-top: 50px;
+    margin-left: 21%;
+    border: none;
+}
+
+#field1a img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+#field1a video {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+
+/* -------------------------INIZIO FIELD1a---------------------------------- */
+
+/* -------------------------INIZIO FIELD2a---------------------------------- */
+
+
+#field2a {
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: none;
+    position: relative;
+}
+
+#field2a img {
+    width: 600px;
+    height: 740px;
+}
+
+#field2a video {
+    width: 600px;
+    height: 720px;
+}
+
+
+
+/* -------------------------FINE FIELD2a---------------------------------- */
+
+/* -------------------------INIZIO FIELD1b---------------------------------- */
+
+#field1b {
+    float: left;
+    margin-top: 50px;
+    margin-left: 21%;
+    border: none;
+
+}
+
+#field1b img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+#field1b video {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+
+/* -------------------------INIZIO FIELD1b---------------------------------- */
+
+/* -------------------------INIZIO FIELD2b---------------------------------- */
+
+#field2b {
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: none;
+    position: relative;
+
+}
+
+#field2b img {
+    width: 600px;
+    height: 740px;
+
+}
+
+#field2b video {
+    width: 600px;
+    height: 740px;
+
+}
+
+
+/* -------------------------FINE FIELD2b---------------------------------- */
+
+/* -------------------------INIZIO FIELD3---------------------------------- */
+
+#field3 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border: none;
+}
+
+#field3 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+
+}
+
+#selezione1 {
+    float: left;
+    margin-left: 20px;
+
+}
+
+#selezione2 {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#field3 a {
+    text-decoration: none;
+    color: rgb(100, 95, 95);
+}
+
+#misurasx {
+    float: left;
+    font-size: 10px;
+    margin-right: 50px;
+}
+
+#misuradx {
+    float: right;
+    font-size: 10px;
+}
+
+#seleziona-misura {
+    clear: both;
+    margin-bottom: 20px;
+}
+
+#misure-scarpa div div a {
+    color: black;
+}
+
+#misure-scarpa div button {
+    border: 1px solid rgb(100, 95, 95);
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.button {
+    background-color: black;
+}
+
+.button1 {
+    background-color: black;
+}
+
+
+#prime3 div {
+    float: left;
+    margin: 5px 4px
+}
+
+#seconde3 div {
+    float: left;
+    margin: 5px 4px
+}
+
+#terze3 div {
+    float: left;
+    margin: 5px 4px
+}
+
+#quarte3 div {
+    float: left;
+    margin: 5px 4px
+}
+
+#quinte3 div {
+    float: left;
+    margin: 5px 4px
+}
+
+#seste3 div {
+    float: left;
+    margin: 5px 4px
+}
+
+#field3 #buttons button {
+    width: 390px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+#field3 #buttons img {
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+
+#buttons #aggiunta-carrello {
+    background-color: black;
+    color: #fff;
+}
+
+/* -------------------------INIZIO Finestra carrello----------------------------- */
+
+.overlay {
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 100px;
+    left: 0px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.finestra {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    z-index: 3;
+    width: 400px;
+    height: 300px;
+    background: #FFFFFF;
+    color: #000;
+}
+
+#riga1sx {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#riga1dx {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#riga1dx a {
+    text-decoration: none;
+    color: rgb(100, 95, 95);
+    font-size: 20px;
+}
+
+#riga2 {
+    margin-left: 50px;
+    margin-top: 80px;
+    clear: both;
+}
+
+#riga2sx {
+    float: left
+}
+
+#riga2dx {
+    margin-left: 30px;
+    font-size: 15px;
+    float: left;
+    text-align: left;
+    color: rgb(100, 95, 95);
+    ;
+
+}
+
+#riga2dx h2:first-child {
+    color: #000;
+}
+
+
+#riga2 img {
+    width: 100px;
+    height: 100px;
+}
+
+#riga3 {
+    clear: both;
+}
+
+#riga3sx {
+    float: left;
+}
+
+#riga3dx {
+    float: left;
+}
+
+#riga3 button {
+    width: 180px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+#riga3sx button {
+    margin-left: 10px;
+}
+
+#riga3dx button {
+    margin-left: 10px;
+    color: #fff;
+    background-color: #000;
+}
+
+#field3 #buttons h3 {
+    margin-top: 20px;
+}
+
+#avviso {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    z-index: 2;
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+#avviso2 {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    z-index: 2;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+}
+
+
+#field3 #buttons #avvisosx {
+    float: left;
+    color: white;
+    padding-left: 20px;
+}
+
+
+#field3 #buttons #avvisodx {
+    float: right;
+    padding-right: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+#field3 a {
+    text-decoration: none;
+    color: white;
+}

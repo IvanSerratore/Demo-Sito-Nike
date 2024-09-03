@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    max-width: 1920px;
+    margin: 0 0 0 0;
+    height: 1080px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+body button {
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+}
+
+body button img {
+    width: 25%;
+    height: 25%;
+}
+
+
+/* -------------------------Prima fascia------------------------------- */
+
+#fascia1 {
+    background-color:rgb(236, 232, 232);
+    height: 3.7037037%;
+    width: auto;
+}
+
+#jordan {
+    display: block;
+    background-color:rgb(236, 232, 232);
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+
+#immagine1 {
+    float: left;
+}
+
+
+#testi1 {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+#testi1 a {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    float: left;
+}
+
+#testi1 p {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    float: left;
+}
+
+/* -------------------------seconda fascia------------------------------- */
+
+#fascia2 {
+    background-color: #fff;
+    height: 5.55555556%;
+    width: auto;
+}
+
+#immagine2 {
+    float: left;
+}
+
+#logo_nike {
+    height: 40px;
+    padding: 3px 0 3px;
+    margin: 5px 0px 0px 40px;
+}
+
+#testi2 {
+    float: left;
+    padding: 20px 0 10px;
+    margin-left: 600px;
+    margin-right: 100px;
+    font-size: 20px
+}
+
+#testi2 li {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    float: left;
+    list-style: none;
+}
+
+#testi2 a{
+    text-decoration: none;
+    color: black;
+}
+
+#ricerca {
+    float: right;
+    margin-right: 80px;
+    padding: 20px 0;
+
+}
+
+
+.icon {
+    padding-left: 25px;
+    background: url("immagini/loghi/icons8-ricerca-50.png") no-repeat left;
+    background-size: 15px;
+    border-radius: 20px;
+}
+
+
+#loghi {
+    float: right;
+    padding: 20px 0 3px;
+    margin-right: 60px;
+}
+
+#loghi img {
+    height: 20px;
+}
+
+/* -------------------------terza fascia------------------------------- */
+
+#fascia3 {
+    background-color: rgb(236, 232, 232);
+    height: 5.55555556%;
+    width: auto;
+}
+
+#fascia3 p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#p2{
+    text-align: center;
+    font-size: 12px;
+    text-decoration:underline;
+    color: black;
+}
+
+/* -------------------------fine testata------------------------------- */

@@ -1,0 +1,455 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: social;
+    src: url(font/social.woff2),
+        url(font/social.woff),
+        url(font/social.ttf);
+}
+
+
+
+body {
+    max-width: 1920px;
+    margin: 0 0 0 0;
+    height: 1080px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+body button {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+}
+
+body button img {
+    width: 25%;
+    height: 25%;
+}
+
+
+/* -------------------------Prima fascia------------------------------- */
+
+.fascia1 {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+
+#fascia1 {
+    background-color: rgb(236, 232, 232);
+    height: 3.7037037%;
+    width: auto;
+}
+
+#jordan {
+    float: left;
+    display: block;
+    background-color: rgb(236, 232, 232);
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+#converse {
+    float: left;
+    display: block;
+    background-color: rgb(236, 232, 232);
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#immagine1 {
+    float: left;
+}
+
+
+#testi1 {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+#testi1 a {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    float: left;
+}
+
+#testi1 p {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    float: left;
+}
+
+/* -------------------------seconda fascia------------------------------- */
+.fascia2 {
+    position: sticky;
+    top: 40px;
+    left: 0;
+    z-index: 2;
+}
+
+#fascia2 {
+    background-color: #fff;
+    height: 5.55555556%;
+    width: auto;
+}
+
+#immagine2 {
+    float: left;
+}
+
+#logo_nike {
+    width: 70px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#menu {
+    float: left;
+    padding: 20px 0 10px;
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+#ricerca {
+    float: left;
+    margin-left: 10%;
+    padding: 20px 0;
+    margin-right: 5%;
+}
+
+#loghi div {
+    float: left;
+    padding: 10px 0 3px;
+}
+
+.icon {
+    padding-left: 25px;
+    background: url("../immagini/loghi/icons8-ricerca-50.png") no-repeat left;
+    background-size: 15px;
+    border-radius: 20px;
+}
+
+#loghi img {
+    height: 30px;
+}
+
+/* -----------------------qui inizia il menu --------------------------*/
+
+nav ul li {
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li ul {
+    position: absolute;
+    display: none;
+}
+
+nav ul li:hover a:first-child {
+    border-bottom: 2px solid black;
+}
+
+nav ul li:hover ul a:first-child {
+    border: none;
+}
+
+
+nav ul li:hover #ul1 {
+    left: -710px;
+    display: block;
+    z-index: 2;
+    background-color: #fff;
+    padding-top: 50px;
+    width: 1920px;
+    height: 400px;
+    padding-left: 500px;
+}
+
+nav ul li:hover #ul2 {
+    left: -900px;
+    display: block;
+    z-index: 2;
+    background-color: #fff;
+    padding-top: 50px;
+    width: 1920px;
+    height: 400px;
+    padding-left: 500px;
+}
+
+nav ul li:hover #ul3 {
+    left: -970px;
+    display: block;
+    z-index: 2;
+    background-color: #fff;
+    padding-top: 50px;
+    width: 1920px;
+    height: 400px;
+    padding-left: 500px;
+}
+
+nav ul li:hover #ul4 {
+    left: -1050px;
+    display: block;
+    z-index: 2;
+    background-color: #fff;
+    padding-top: 50px;
+    width: 1920px;
+    height: 400px;
+    padding-left: 500px;
+}
+
+nav ul li:hover #ul5 {
+    left: -1130px;
+    display: block;
+    z-index: 2;
+    background-color: #fff;
+    padding-top: 50px;
+    width: 1920px;
+    height: 400px;
+    padding-left: 400px;
+}
+
+nav ul li ul li a {
+    margin-right: 50px;
+    color: rgb(100, 95, 95);
+    font-size: 17px;
+}
+
+nav ul li ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li ul li a:first-child {
+    margin-right: 50px;
+    color: black;
+    font-size: 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* -------------------------terza fascia------------------------------- */
+
+#fascia3 {
+    background-color: rgb(236, 232, 232);
+    height: 5.55555556%;
+    width: auto;
+}
+
+#fascia3 p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#p2 {
+    text-align: center;
+    font-size: 12px;
+    text-decoration: underline;
+    color: black;
+}
+
+#p2 a {
+    color: black;
+}
+
+/* -------------------------fine testata------------------------------- */
+
+
+/* -------------------------Inizio fascia 10------------------------------- */
+
+#fascia10 {
+    clear: both;
+    background-color: black;
+    height: 30.037037%;
+}
+
+
+#fascia10 a {
+    text-decoration: none;
+    color: rgb(100, 95, 95);
+}
+
+#fascia10 a:hover {
+    color: white;
+}
+
+
+#fascia10 a:first-child {
+    color: #fff;
+}
+
+.footer1 {
+    float: left;
+    margin-top: 50px;
+    width: 10%;
+    font-size: 13px;
+    margin-left: 100px;
+}
+
+#fondo5 {
+    float: right;
+}
+
+#fondo1 a {
+    color: #fff;
+}
+
+#fondo1 a:hover {
+    text-decoration: underline;
+}
+
+#fascia10 ul {
+    font-family: 'social';
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 5%;
+
+}
+
+#fascia10 ul li {
+    display: inline-block;
+    margin-right: 16px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: rgb(100, 95, 95);
+    text-align: center;
+    line-height: 32px;
+    margin-top: 50px;
+}
+
+#fascia10 ul li a {
+    color: black;
+}
+
+/* -------------------------Fine fascia 10--------------------------------- */
+
+/* -------------------------inizio fascia 11--------------------------------- */
+
+#fascia11 {
+    float: right;
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}
+
+#fascia11 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#fascia11a {
+    float: right;
+    padding-right: 200px;
+}
+
+#fascia11a a {
+    margin-right: 20px;
+}
+
+#fascia11sx1 {
+    font-family: social;
+    float: left;
+    padding-left: 10%;
+    margin-top: 50px;
+}
+
+#fascia11sx2 {
+    float: left;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+#fascia11sx3 {
+    float: left;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+#fascia11dx1 {
+    float: right;
+    padding-right: 10%;
+    margin-top: 50px;
+}
+
+#fascia11dx1 a {
+    margin-right: 20px;
+}
+
+#fascia11b {
+    clear: both;
+}
+
+
+/* -------------------------INIZIO centro---------------------------------- */
+
+
+#centro {
+    margin-top: 50px;
+    margin-left: 400px;
+    border: none;
+    position: relative;
+    margin-bottom: 50px;
+
+}
+
+#centro img {
+    float: left;
+    width: 550px;
+    height: 600px;
+
+}
+
+#grazie {
+    float: left;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+#grazie h2 {
+    margin-top: 20px;
+    color: rgb(100, 95, 95);
+}
+
+#grazie h1 {
+    color: rgb(7, 221, 0);
+}
+
+
+#grazie button {
+    width: 400px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: black;
+}

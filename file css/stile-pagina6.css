@@ -1,0 +1,499 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: social;
+    src: url(font/social.woff2),
+        url(font/social.woff),
+        url(font/social.ttf);
+}
+
+
+body {
+    max-width: 1920px;
+    margin: 0 0 0 0;
+    height: 1080px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+body button {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+}
+
+body button img {
+    width: 25%;
+    height: 25%;
+}
+
+
+/* -------------------------Prima fascia-----------------------------s-- */
+
+#fascia1 {
+    background-color: rgb(236, 232, 232);
+    height: 3.7037037%;
+    width: auto;
+}
+
+#jordan {
+    float: left;
+    display: block;
+    background-color: rgb(236, 232, 232);
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+#converse{
+    float: left;
+    display: block;
+    background-color: rgb(236, 232, 232);
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+#immagine1 {
+    float: left;
+}
+
+
+#testi1 {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+#testi1 a {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    float: left;
+}
+
+#testi1 p {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    float: left;
+}
+
+
+/* -------------------------fine fascia 1------------------------------------ */
+
+/* -------------------------Inizio fascia 10------------------------------- */
+
+#fascia10 {
+    clear: both;
+    background-color: black;
+    height: 30.037037%;
+}
+
+
+#fascia10 a {
+    text-decoration: none;
+    color: rgb(100, 95, 95);
+}
+
+#fascia10 a:hover {
+    color: white;
+}
+
+
+#fascia10 a:first-child {
+    color: #fff;
+}
+
+.footer1 {
+    float: left;
+    margin-top: 50px;
+    width: 10%;
+    font-size: 13px;
+    margin-left: 100px;
+}
+
+#fondo5 {
+    float: right;
+}
+
+#fondo1 a {
+    color: #fff;
+}
+
+#fondo1 a:hover {
+    text-decoration: underline;
+}
+
+#fascia10 ul {
+    font-family: 'social';
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 5%;
+
+}
+
+#fascia10 ul li {
+    display: inline-block;
+    margin-right: 16px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: rgb(100, 95, 95);
+    text-align: center;
+    line-height: 32px;
+    margin-top: 50px;
+}
+
+#fascia10 ul li a {
+    color: black;
+}
+
+/* -------------------------Fine fascia 10--------------------------------- */
+
+/* -------------------------inizio fascia 11--------------------------------- */
+
+#fascia11 {
+    float: right;
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}
+
+#fascia11 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#fascia11a {
+    float: right;
+    padding-right: 200px;
+}
+
+#fascia11a a {
+    margin-right: 20px;
+}
+
+#fascia11sx1 {
+    font-family: social;
+    float: left;
+    padding-left: 10%;
+    margin-top: 50px;
+}
+
+#fascia11sx2 {
+    float: left;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+#fascia11sx3 {
+    float: left;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+#fascia11dx1 {
+    float: right;
+    padding-right: 10%;
+    margin-top: 50px;
+}
+
+#fascia11dx1 a {
+    margin-right: 20px;
+}
+
+#fascia11b {
+    clear: both;
+}
+
+
+/* --------Inizio fieldset metodi di pagamento------------ */
+
+#metodi-pagamento {
+    float: left;
+    margin-left: 500px;
+    margin-bottom: 100px;
+    border: none;
+    margin-right: 20px;
+    width: 600px;
+    margin-top: 100px;
+}
+
+#scritta {
+    margin-bottom: 20px;
+}
+
+#centro h3:nth-child(2) {
+    color: rgb(100, 95, 95);
+}
+
+#centro a {
+    color: black;
+    font-size: bold;
+    margin-left: 5px;
+}
+
+#checkboxsx {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#checkboxdx {
+    float: left;
+    margin-bottom: 20px;
+
+}
+
+#checkbox {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#scritta-metodo h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#checkbox1sx{
+    float: left;
+    margin-right: 20px;
+    margin-top: 3px;
+    margin-bottom: 40px;
+}
+
+#checkbox1dx{
+    float: left;
+}
+
+#checkbox2{
+    clear: both;
+}
+
+#checkbox2 img{
+    width: 50px;
+    height: 30px;
+}
+
+
+#checkbox2sx{
+    float: left;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+#checkbox2dx{
+    float: left;
+    
+}
+
+#checkbox3{
+    clear: both;
+}
+
+#checkbox3sx{
+    float: left;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+#checkbox3dx{
+    float: left;
+}
+
+
+#card{
+    clear: both;
+    border: 1px solid rgb(100, 95, 95);
+    width: 600px;
+    height: 170px;
+    border-radius: 5px;
+}
+
+
+#card-text{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#input-card input{
+    padding-left: 10px;
+}
+
+
+#cardsx input{
+    margin-left: 20px;
+    float: left;
+    width: 300px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#cardcentro input{
+    float: left;
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#carddx input{
+    float: left;
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#button-carta input {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+#card-footer h3{
+    margin-top: 30px;
+    margin-right: 20px;
+    float: left;
+    padding-left: 25px;
+    text-decoration: underline;
+}
+
+#parte6{
+    margin-top: 40px;
+    clear: both;
+
+}
+
+#button-termina button {
+    float: right;
+    margin-right: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* -----------------Fine fieldset metodi di pagamento------- */
+
+/* ------------Inizio fieldset Riepilogo del carrello---*/
+
+#riepilogo-carrello {
+    float: left;
+    width: 300px;
+    border: none;
+    margin-top: 100px;
+}
+
+#riepilogo-carrello img {
+    width: 70px;
+    height: 70px;
+}
+
+#riga1sx {
+    float: left;
+    font-size: 15px;
+}
+
+#riga1dx {
+    float: right;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#subtotale {
+    clear: both;
+}
+
+#subtotalesx {
+    float: left;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+#subtotaledx {
+    float: right;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+#costi {
+    clear: both;
+}
+
+#costisx {
+    float: left;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#costidx {
+    float: right;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#totale {
+    clear: both;
+    margin-bottom: 20px;
+}
+
+#totalesx {
+    float: left;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#totaledx {
+    float: right;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#scritta-arrivo {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#riepilogosx {
+    float: left;
+    color: rgb(100, 95, 95);
+    font-size: 12px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#riepilogosx h3:first-child {
+    color: black;
+    margin-bottom: 10px;
+}
+
+#riepilogodx {
+    float: right;
+}
+
+/* -----------------Fine fieldset Riepilogo del carrello-------------------- */

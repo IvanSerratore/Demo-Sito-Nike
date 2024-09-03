@@ -1,0 +1,487 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: social;
+    src: url(font/social.woff2),
+        url(font/social.woff),
+        url(font/social.ttf);
+}
+
+
+body {
+    max-width: 1920px;
+    margin: 0 0 0 0;
+    height: 1080px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.error{
+    border: 1px solid red;
+}
+
+body button {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+}
+
+body button img {
+    width: 25%;
+    height: 25%;
+}
+
+
+/* -------------------------Prima fascia------------------------------- */
+
+#fascia1 {
+    background-color: rgb(236, 232, 232);
+    height: 3.7037037%;
+    width: auto;
+}
+
+#jordan {
+    float: left;
+    display: block;
+    background-color: rgb(236, 232, 232);
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+#converse {
+    float: left;
+    display: block;
+    background-color: rgb(236, 232, 232);
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+#immagine1 {
+    float: left;
+}
+
+
+#testi1 {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+#testi1 a {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    float: left;
+}
+
+#testi1 p {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    float: left;
+}
+
+
+/* -------------------------fine fascia 1------------------------------------ */
+
+/* -------------------------Inizio fascia 10------------------------------- */
+
+#fascia10 {
+    clear: both;
+    background-color: black;
+    height: 30.037037%;
+}
+
+
+#fascia10 a {
+    text-decoration: none;
+    color: rgb(100, 95, 95);
+}
+
+#fascia10 a:hover {
+    color: white;
+}
+
+
+#fascia10 a:first-child {
+    color: #fff;
+}
+
+.footer1 {
+    float: left;
+    margin-top: 50px;
+    width: 10%;
+    font-size: 13px;
+    margin-left: 100px;
+}
+
+#fondo5 {
+    float: right;
+}
+
+#fondo1 a {
+    color: #fff;
+}
+
+#fondo1 a:hover {
+    text-decoration: underline;
+}
+
+#fascia10 ul {
+    font-family: 'social';
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 5%;
+
+}
+
+#fascia10 ul li {
+    display: inline-block;
+    margin-right: 16px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: rgb(100, 95, 95);
+    text-align: center;
+    line-height: 32px;
+    margin-top: 50px;
+}
+
+#fascia10 ul li a {
+    color: black;
+}
+
+/* -------------------------Fine fascia 10--------------------------------- */
+
+/* -------------------------inizio fascia 11--------------------------------- */
+
+#fascia11 {
+    float: right;
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}
+
+#fascia11 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#fascia11a {
+    float: right;
+    padding-right: 200px;
+}
+
+#fascia11a a {
+    margin-right: 20px;
+}
+
+#fascia11sx1 {
+    font-family: social;
+    float: left;
+    padding-left: 10%;
+    margin-top: 50px;
+}
+
+#fascia11sx2 {
+    float: left;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+#fascia11sx3 {
+    float: left;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+#fascia11dx1 {
+    float: right;
+    padding-right: 10%;
+    margin-top: 50px;
+}
+
+#fascia11dx1 a {
+    margin-right: 20px;
+}
+
+#fascia11b {
+    clear: both;
+}
+
+/* -------------Inizio fieldset Opzioni di consegna------------ */
+
+#opzioni-consegna {
+    float: left;
+    margin-left: 500px;
+    margin-bottom: 100px;
+    border: none;
+    margin-right: 20px;
+}
+
+#scritta {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+#modalita-spedizione input {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-right: 20px;
+    font-size: 15px;
+    padding-left: 10px;
+
+}
+
+.select button{
+    background-color: #c0b8b8
+}
+
+#parte1 button{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+
+#parte1sx {
+    float: left;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+#parte1dx {
+    float: left;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+#parte2sx {
+    float: left;
+}
+
+#parte2dx {
+    float: right;
+}
+
+#parte3 input {
+    width: 620px;
+}
+
+.errore{
+    border: 1px solid red;
+}
+
+#parte4 h3 {
+    text-decoration: underline;
+    color: rgb(100, 95, 95);
+    padding-top: 20px;
+}
+
+#parte5sx {
+    float: left;
+}
+
+#parte5dx {
+    float: right;
+}
+
+#parte6 {
+    clear: both;
+    float: left;
+}
+
+#parte6 h1:first-child {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#button-save input{
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+#button-continua button{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+
+/* -----------------Fine fieldset Opzioni di consegna---------------------- */
+
+/* -----------------Fine fieldset Opzioni di ritiro---------------------- */
+
+#modalita-ritiro {
+    clear: both;
+}
+
+#scritta-selezione {
+    padding-top: 40px;
+}
+
+#scritta2{
+    float: left;
+    margin-top: 40px;
+}
+
+#input-ritiro input{
+    margin-bottom: 20px;
+    width: 620px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-right: 20px;
+    font-size: 15px;    
+    padding-left: 10px;
+}
+
+#button-save1 button{
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+#button-save2 button{
+    float: right;
+    margin-right: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+/* -----------------Fine fieldset Opzioni di ritiro------------ */
+
+/* ---------Inizio fieldset Riepilogo del carrello------------- */
+
+#riepilogo-carrello {
+    float: left;
+    width: 300px;
+    border: none;
+}
+
+#riepilogo-carrello img {
+    width: 70px;
+    height: 70px;
+}
+
+#riga1sx {
+    float: left;
+    font-size: 15px;
+}
+
+#riga1dx {
+    float: right;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#subtotale {
+    clear: both;
+}
+
+#subtotalesx {
+    float: left;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+#subtotaledx {
+    float: right;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+#costi {
+    clear: both;
+}
+
+#costisx {
+    float: left;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#costidx {
+    float: right;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#totale {
+    clear: both;
+    margin-bottom: 20px;
+}
+
+#totalesx {
+    float: left;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#totaledx {
+    float: right;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#scritta-arrivo {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#riepilogosx {
+    float: left;
+    color: rgb(100, 95, 95);
+    font-size: 12px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#riepilogosx h3:first-child {
+    color: black;
+    margin-bottom: 10px;
+}
+
+#riepilogodx {
+    float: right;
+}
+
+/* ---------Fine fieldset Riepilogo del carrello----------- */

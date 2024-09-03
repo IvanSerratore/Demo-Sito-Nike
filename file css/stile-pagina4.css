@@ -1,0 +1,862 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: social;
+    src: url(font/social.woff2),
+        url(font/social.woff),
+        url(font/social.ttf);
+}
+
+
+body {
+    max-width: 1920px;
+    margin: 0 0 0 0;
+    height: 1080px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pagina {
+    max-width: 100%;
+    height: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+body button {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+}
+
+body button img {
+    width: 25%;
+    height: 25%;
+}
+
+
+/* -------------------------Prima fascia------------------------------- */
+
+#fascia1 {
+    background-color: rgb(236, 232, 232);
+    height: 3.7037037%;
+    width: auto;
+}
+
+#jordan {
+    float: left;
+    display: block;
+    background-color: rgb(236, 232, 232);
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+#converse{
+    float: left;
+    display: block;
+    background-color: rgb(236, 232, 232);
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+#immagine1 {
+    float: left;
+}
+
+
+#testi1 {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+#testi1 a {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    float: left;
+}
+
+#testi1 p {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    float: left;
+}
+
+/* -------------------------seconda fascia------------------------------- */
+
+.fascia2 {
+    position: sticky;
+    top: 40px;
+    left: 0;
+    z-index: 2;
+}
+
+#fascia2 {
+    background-color: #fff;
+    height: 5.55555556%;
+    width: auto;
+}
+
+#immagine2 {
+    float: left;
+}
+
+#logo_nike {
+    width: 70px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#menu {
+    float: left;
+    padding: 20px 0 10px;
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+#ricerca {
+    float: left;
+    margin-left: 10%;
+    padding: 20px 0;
+    margin-right: 5%;
+}
+
+#loghi div {
+    float: left;
+    padding: 10px 0 3px;
+}
+
+.icon {
+    padding-left: 25px;
+    background: url("../immagini/loghi/icons8-ricerca-50.png") no-repeat left;
+    background-size: 15px;
+    border-radius: 20px;
+}
+
+#loghi img {
+    height: 30px;
+}
+
+/* -----------------------qui inizia il menu --------------------------*/
+
+nav ul li {
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li ul {
+    position: absolute;
+    display: none;
+}
+
+nav ul li:hover a:first-child {
+    border-bottom: 2px solid black;
+}
+
+nav ul li:hover ul a:first-child {
+    border: none;
+}
+
+
+nav ul li:hover #ul1 {
+    left: -710px;
+    display: block;
+    z-index: 2;
+    background-color: #fff;
+    padding-top: 50px;
+    width: 1920px;
+    height: 400px;
+    padding-left: 500px;
+}
+
+nav ul li:hover #ul2 {
+    left: -900px;
+    display: block;
+    z-index: 2;
+    background-color: #fff;
+    padding-top: 50px;
+    width: 1920px;
+    height: 400px;
+    padding-left: 500px;
+}
+
+nav ul li:hover #ul3 {
+    left: -970px;
+    display: block;
+    z-index: 2;
+    background-color: #fff;
+    padding-top: 50px;
+    width: 1920px;
+    height: 400px;
+    padding-left: 500px;
+}
+
+nav ul li:hover #ul4 {
+    left: -1050px;
+    display: block;
+    z-index: 2;
+    background-color: #fff;
+    padding-top: 50px;
+    width: 1920px;
+    height: 400px;
+    padding-left: 500px;
+}
+
+nav ul li:hover #ul5 {
+    left: -1130px;
+    display: block;
+    z-index: 2;
+    background-color: #fff;
+    padding-top: 50px;
+    width: 1920px;
+    height: 400px;
+    padding-left: 400px;
+}
+
+nav ul li ul li a {
+    margin-right: 50px;
+    color: rgb(100, 95, 95);
+    font-size: 17px;
+}
+
+nav ul li ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li ul li a:first-child {
+    margin-right: 50px;
+    color: black;
+    font-size: 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* -------------------------fine fascia 2-------------------------------------- */
+
+/* -------------------------Inizio fascia 10------------------------------- */
+
+#fascia10 {
+    clear: both;
+    background-color: black;
+    height: 30.037037%;
+}
+
+
+#fascia10 a {
+    text-decoration: none;
+    color: rgb(100, 95, 95);
+}
+
+#fascia10 a:hover {
+    color: white;
+}
+
+
+#fascia10 a:first-child {
+    color: #fff;
+}
+
+.footer1 {
+    float: left;
+    margin-top: 50px;
+    width: 10%;
+    font-size: 13px;
+    margin-left: 100px;
+}
+
+#fondo5 {
+    float: right;
+}
+
+#fondo1 a {
+    color: #fff;
+}
+
+#fondo1 a:hover {
+    text-decoration: underline;
+}
+
+#fascia10 ul {
+    font-family: 'social';
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 5%;
+
+}
+
+#fascia10 ul li {
+    display: inline-block;
+    margin-right: 16px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: rgb(100, 95, 95);
+    text-align: center;
+    line-height: 32px;
+    margin-top: 50px;
+}
+
+#fascia10 ul li a {
+    color: black;
+}
+
+/* -------------------------Fine fascia 10--------------------------------- */
+
+/* -------------------------inizio fascia 11--------------------------------- */
+
+#fascia11 {
+    float: right;
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}
+
+#fascia11 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#fascia11a {
+    float: right;
+    padding-right: 200px;
+}
+
+#fascia11a a {
+    margin-right: 20px;
+}
+
+#fascia11sx1 {
+    font-family: social;
+    float: left;
+    padding-left: 10%;
+    margin-top: 50px;
+}
+
+#fascia11sx2 {
+    float: left;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+#fascia11sx3 {
+    float: left;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+#fascia11dx1 {
+    float: right;
+    padding-right: 10%;
+    margin-top: 50px;
+}
+
+#fascia11dx1 a {
+    margin-right: 20px;
+}
+
+#fascia11b {
+    clear: both;
+}
+
+/* -------------------------Inizio fieldset carrello1--------------------------------- */
+
+#testi {
+    border: 1px solid rgb(224, 218, 218);
+    color: rgb(100, 95, 95);
+    font-size: 12px;
+    padding: 10px;
+}
+
+
+#testi a {
+    color: rgb(100, 95, 95);
+}
+
+#carrello1 #testi h1 {
+    color: orangered;
+}
+
+#carrello1 {
+    width: 750px;
+    height: auto;
+    float: left;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    margin-left: 400px;
+    border:none;
+    margin-right: 20px;
+}
+
+#titolo {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#finestra {
+    z-index: 3;
+    width: auto;
+    height: auto;
+    background: #FFFFFF;
+    color: #000;
+}
+
+#seleziona-prodotto a{
+    text-decoration: none;
+    color: #fff;
+    width: 600px;
+    height: 80px;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+#seleziona-prodotto button{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    height: 80px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #000;
+    color: #fff;
+}
+
+
+#riga2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    clear: both;
+    float: left;
+}
+
+#prezzo {
+    float: right;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+
+
+#riga2sx {
+    float: left;
+    margin-bottom: 50px;
+}
+
+#riga2dx {
+    margin-left: 30px;
+    font-size: 15px;
+    float: left;
+    text-align: left;
+    color: rgb(100, 95, 95);
+
+}
+
+
+#riga2dx h2{
+    color: #000;
+}
+
+#riga2dx p{
+    font-size: 20px;
+}
+
+.left{
+    float:left;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: rgb(100, 95, 95);
+}
+
+
+#riga2 img {
+    width: 100px;
+    height: 100px;
+}
+
+#riga2dx img{
+    width: 30px;
+    height: 30px;
+}
+
+#riga3 {
+    clear: both;
+    
+}
+
+#riga3 h2 {
+    font-size: 20px;
+}
+
+#riga3 #negozio{
+    text-decoration: underline;
+}
+
+#riga4 a{
+    color: rgb(100, 95, 95);
+    font-size: 20px;
+}
+
+#riga4 h2{
+    font-size: 20px;
+}
+
+/* -------------------------Fine fieldset carrello1----------------- */
+
+/* -------------------------Inizio fieldset carrello2--------------- */
+
+#carrello2 {
+    float: left;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 300px;
+    height: 400px;
+    border: none;
+}
+
+
+#carrello2 #freccia img {
+    width: 10px;
+    height: 10px;
+}
+
+#testo{
+    float: left;
+    color: rgb(88, 84, 84);
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+#freccia{
+    float: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+#codice{
+    clear: both;
+}
+
+
+#input input{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+}
+
+#applica{
+    float: right;
+    margin-right: 50px;
+}
+
+#codice #applica button{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+#subtotale{
+    clear: both;
+    
+}
+
+#subtotalesx{
+    float: left;
+    font-size: 10px;
+    color: rgb(88, 84, 84);
+    margin-top: 10px;
+}
+
+#subtotaledx{
+    float: right;
+    font-size: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#subtotaledx1{
+    float: right;
+    font-size: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#subtotaledx2{
+    float: right;
+    font-size: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#subtotaledx3{
+    float: right;
+    font-size: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+
+#costi{
+    clear: both;
+    
+}
+
+#costisx{
+    float: left;
+    font-size: 10px;
+    color: rgb(88, 84, 84);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#costidx{
+    float: right;
+    font-size: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#divisione1{
+    clear: both;
+    
+}
+
+#totale{
+    clear: both;
+    margin-top: 20px;
+}
+
+#totalesx{
+    float: left;
+    font-size: 13px;
+}
+
+#totaledx{
+    float: right;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+#totaledx1{
+    float: right;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+#totaledx2{
+    float: right;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+#totaledx3{
+    float: right;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+#pagamento{
+    clear: both;
+}
+
+#pagamento button{
+    margin-top: 20px;
+}
+
+#pagamento #bottone1 button{
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #000;
+}
+
+#pagamento #bottone-paypal button{
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    
+}
+
+#pagamento #bottone-paypal img{
+
+    width: 60px;
+    height: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

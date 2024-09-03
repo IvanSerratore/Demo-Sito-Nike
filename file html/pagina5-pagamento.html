@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina di pagamento</title>
+    <link rel="stylesheet" href="../file css/stile-pagina5-pagamento.css">
+    <link rel="icon" type="image/x-icon" href="/prima prova completa/immagini/loghi/favicon.ico">
+</head>
+
+<body>
+
+    <!-- INIZIO TESTATA -->
+
+    <div id="fascia1">
+        <div id="immagine1">
+            <a href="https://www.nike.com/it/jordan"><img src="../immagini/loghi/icons8-air-jordan-50.png" alt=""
+                    id="jordan"></a>
+            <a href="https://www.converse.com/it/it/go"><img src="../immagini/loghi/converse_preview_rev_1.png"
+                    id="converse" alt=""></a>
+        </div>
+        <div id="testi1">
+            <a href="#">Trova un negozio </a>
+            <p>|</p>
+            <a href="#">Aiuto </a>
+            <p>|</p>
+            <a href="#">Unisciti a noi </a>
+            <p>|</p>
+            <a href="#">Accedi</a>
+        </div>
+    </div>
+
+    <!-- INIZIO FORM -->
+
+    <div id="scritta">
+        <h1>Pagamento</h1>
+    </div>
+
+    <!--SEZIONE CON OPZIONI DI CONSEGNA E SPEDIZIONE -->
+
+    <fieldset id="opzioni-consegna">
+
+        <h2>Opzioni di consegna</h2>
+
+        <div id="parte1">
+
+            <div id="parte1sx" class="select">
+                <button id="spedizione">SPEDIZIONE</button>
+            </div>
+
+            <div id="parte1dx">
+                <button id="ritiro">RITIRO</button>
+            </div>
+
+        </div>
+
+        <form onsubmit="return validaForm()" id="form">
+
+            <div id="modalita-spedizione">
+                <div id="parte2">
+
+                    <div id="parte2sx">
+
+                        <input type="text" id="nome" name="nome" required placeholder="nome">
+                    </div>
+
+                    <div id="parte2dx">
+
+                        <input type="text" id="cognome" name="cognome" required placeholder="cognome">
+
+                    </div>
+
+                </div>
+
+                <div id="parte3">
+
+                    <div>
+
+                        <input type="text" id="indirizzo" name="indirizzo" required placeholder="indirizzo">
+                    </div>
+
+                </div>
+
+                <div id="parte4">
+
+                    <div>
+                        <h3>Inserisci l'indirizo manualmente</h3>
+                    </div>
+
+                </div>
+
+                <div id="parte5">
+
+                    <div id="parte5sx">
+                        <input type="email" id="email" name="email" required placeholder="email">
+                    </div>
+
+                    <div id="parte5dx">
+                        <input type="tel" id="telefono" name="telefono" required pattern="\d{10}"
+                            title="Il numero deve essere composto da 10 cifre" placeholder="telefono">
+                    </div>
+
+                    <div id="button-save">
+                        <input type="submit" value="Salva i dati e continua">
+                    </div>
+
+                </div>
+            </div>
+
+        </form>
+
+        <div id="button-continua">
+            <button id="continua">Continua</button>
+        </div>
+
+        <div id="modalita-ritiro" class="hidden">
+
+            <div id="scritta-selezione">
+                <h4>Seleziona uno store o la sede clicca e ritira</h4>
+            </div>
+
+
+
+            <div id="input-ritiro">
+
+                <input type="text" name="indirizzo" id="indirizzo2"
+                    placeholder="Inserisci l'indirizzo o il codice postale">
+
+            </div>
+
+            <div id="button-save2">
+                <button type="submit" value="Salva i dati" id="salvaidati"> Salva i dati</button>
+            </div>
+
+
+
+            <div id="scritta2">
+                <h4>L'uso di una posizione specifica, come l'indirizzo di casa o il codice postale,<br>
+                    permetterà diottimizzare l'accuratezza dei risultati</h4>
+            </div>
+
+            <div id="button-save1">
+                <button id="continua2">Continua</button>
+            </div>
+
+
+
+
+        </div>
+
+        <div id="parte6">
+
+            <h1>Pagamento</h1>
+
+            <h1>Verifica dell'ordine</h1>
+
+        </div>
+
+
+
+    </fieldset>
+
+    <!-- FINE FORM -->
+
+    <!-- SEZIONE CON IL RIEPILOGO DEL CARRELLO -->
+
+    <fieldset id="riepilogo-carrello">
+
+        <div id="riga1">
+
+            <div id="riga1sx">
+                <h1>Nel carrello</h1>
+            </div>
+
+            <div id="riga1dx">
+                <h3>Modifica</h3>
+            </div>
+
+        </div>
+
+        <div id="subtotale">
+
+            <div id="subtotalesx">
+
+                <h2>Subtotale</h2>
+
+            </div>
+
+            <div id="subtotaledx">
+
+                <h2>119,99 €</h2>
+
+            </div>
+
+        </div><br><br>
+
+        <div id="costi">
+
+            <div id="costisx">
+
+                <h2>Costi di Spedizione stimati</h2>
+
+            </div>
+
+            <div id="costidx">
+
+                <h2>0,00 €</h2>
+
+            </div>
+
+        </div>
+
+
+        <div id="totale">
+
+            <div id="totalesx">
+
+                <h2>Totale</h2>
+
+            </div>
+
+            <div id="totaledx">
+
+                <h2>119,99 €</h2>
+
+            </div>
+
+        </div><br><br>
+
+        <hr><br>
+
+        <div id="scritta-arrivo">
+
+            <h3>Arriva entro il giorno lun 18 feb</h3>
+
+        </div>
+
+        <div id="riepilogo1">
+
+            <div id="riepilogosx">
+
+                <img src="../immagini/Scarpa/4.jpg" alt="">
+                <img src="../immagini/Scarpa_2/6.jpg" alt="" class="hidden">
+
+            </div>
+
+            <div id="riepilogosx">
+
+                <h3>Scarpa Nike Dunk Low </h3>
+
+                <h3>Modello nr. : DD1391-103</h3>
+
+                <h3>Misura: 41</h3>
+
+                <h3>Colore: Bianco/Black Fog</h3>
+
+                <h3>Quantità: 1 @ 119,99 €</h3>
+
+                <h3>119,99 €</h3>
+
+            </div>
+
+        </div>
+
+        <div id="riepilogo2" class="hidden">
+
+            <div id="riepilogosx">
+
+                <img src="../immagini/Scarpa_2/6.jpg" alt="">
+
+            </div>
+
+            <div id="riepilogosx">
+
+                <h3>Scarpa Nike Dunk Low </h3>
+
+                <h3>Modello nr.: DD1391-103</h3>
+
+                <h3>Misura: 41</h3>
+
+                <h3>Colore: Bianco/Green Fog</h3>
+
+                <h3>Quantità: 1 @ 99.99 €</h3>
+
+                <h3>119,99 €</h3>
+
+            </div>
+
+        </div>
+
+    </fieldset>
+
+    <!-- INIZIO FOOTER -->
+
+    <div id="fascia10">
+
+        <div id="fondo1" class="footer1">
+
+            <a href="#">GIFT CARD</a><br><br>
+            <a href="#">TROVA UN NEGOZIO</a><br><br>
+            <a href="#">NIKE JOURNAL</a><br><br>
+            <a href="#">DIVENTA MEMBER</a><br><br>
+            <a href="#">SCONTO STUDENTI</a><br><br>
+            <a href="#">INVIA FEEDBACK</a><br><br>
+            <a href="#">CODICI PROMOZIONALI</a>
+
+        </div>
+
+        <div id="fondo2" class="footer1">
+
+            <a href="#">HAI BISOGNO DI AIUTO?</a><br><br>
+            <a href="#">Stato dell'ordine</a><br><br>
+            <a href="#">Spedizione e consegna</a><br><br>
+            <a href="#">Resi</a><br><br>
+            <a href="#">Opzione di pagamento</a><br><br>
+            <a href="#">Contattaci</a><br><br>
+            <a href="#">Assistenza codici promozionali Nike</a>
+
+        </div>
+
+        <div id="fondo3" class="footer1">
+
+            <a href="#">INFORMAZIONI SU NIKE</a><br><br>
+            <a href="#">News</a><br><br>
+            <a href="#">Lavora con noi</a><br><br>
+            <a href="#">Investitori</a><br><br>
+            <a href="#">Sostenibilità</a><br><br>
+            <a href="#">Obbiettivo</a>
+
+        </div>
+
+        <div id="fondo4" class="footer1">
+
+            <a href="#">UNISCITI A NOI</a><br><br>
+            <a href="#">Nike app</a><br><br>
+            <a href="#">Nike Run Club</a><br><br>
+            <a href="#">Nike Training Club</a><br><br>
+            <a href="#">SNKRS</a>
+
+        </div>
+
+        <ul id="fondo5">
+            <li><a href="https://twitter.com/Nike">a</a></li>
+            <li><a href="https://www.facebook.com/nike">c</a></li>
+            <li><a href="https://www.youtube.com/user/nike">b</a></li>
+            <li><a href="https://www.instagram.com/nike">d</a></li>
+        </ul>
+    </div>
+
+    <div id="fascia11">
+
+        <div id="fascia11a">
+
+            <a href="#">Guide</a>
+            <a href="#">Condizioni d'uso</a>
+            <a href="#">Condizioni di vendita</a>
+            <a href="#">Info Legali e Societarie</a>
+
+        </div>
+
+
+
+        <div id="fascia11b">
+
+            <div id="fascia11sx1">
+                <a href="#">e</a>
+            </div>
+
+            <div id="fascia11sx2">
+                <a href="#">Italia</a>
+            </div>
+
+
+            <div id="fascia11sx3">
+                <a href="#">2023 Nike,inc.Tutti i diritti riservati</a>
+            </div>
+
+
+            <div id="fascia11dx1">
+                <a href="#">informativa sulla privacy e sui cookie</a>
+                <a href="#">Impostazioni sui cookie</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="../file javascript/pagamento.js"></script>
+
+</body>
+
+</html>
